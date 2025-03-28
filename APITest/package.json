@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "pinia": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.23.0",
+    "prettier": "^3.5.3"
+  }
+}

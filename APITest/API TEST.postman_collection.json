@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "d5456f81-5d25-444f-a594-a9a18aa6ebac",
+		"name": "API TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41958527"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5173/buscar-operadoras?q=Amil",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5173/buscar-operadoras?q=Amil",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar-operadoras"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Amil"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
